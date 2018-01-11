@@ -47,7 +47,7 @@ public class UserAction {
         String password = request.getParameter("password");
         User u = userService.findUserByName(name);
         if (u == null) {
-            request.setAttribute("errMsg", "不存在");
+            request.setAttribute("errMsg", "用户不存在");
             return rs;
         }
         if (u.getPassword().equals(password)) {
