@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="my_mvc">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/my_mvc.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
