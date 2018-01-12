@@ -38,7 +38,7 @@ public class UserAction {
             String codeInSession = (String) request.getSession().getAttribute("ver_code");
 
             if (!codeInSession.equalsIgnoreCase(code)) {
-                request.setAttribute("errMsg", "验证码错误");
+                request.setAttribute("errMsg", "验证码错1误");
                 return rs;
             }
         }
